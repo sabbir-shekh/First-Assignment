@@ -2,7 +2,9 @@
 *{
     margin: 0;
 } */
-
+body{
+  background-color: #F5F8FF;
+}
 .open-sans-simple{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -287,7 +289,7 @@ gap: 20px;
 }
 .card{
 
-  background-color: #faf1f1;
+  background-color: white;
   width: 370px;
   padding: 24px;
   /* background-color: #E5E7FF; */
@@ -334,4 +336,47 @@ margin-left: 52px;
   font-size: 32px;
 text-align: center;
 padding: 50px;
+}
+
+
+/* focus */
+
+.focus{
+
+  background-color: white;
+  margin: 137px 150px 90px 151px;
+  padding: 15px;
+  border-radius: 14px;
+ 
+}
+
+.focus h2{
+text-align: center;
+font-size: 50px;
+margin: 71px 312px; 
+
+
+}
+
+
+.focus-p{
+text-align: center;
+}
+.focus-photo{
+margin: 130px 150px 71px 150px;
+border-radius: 48px;
+width: 840px;
+height: 364px;
+}
+
+.f-btn{
+  background-color: #4E47FF;
+  color: white;
+  padding: 12px 36px;
+ border-radius: 10px;
+ border: none;
+ font-size: 18px;
+ align-items: center;
+margin-left: 500px;
+
 }
