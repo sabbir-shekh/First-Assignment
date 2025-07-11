@@ -380,3 +380,73 @@ height: 364px;
 margin-left: 500px;
 
 }
+
+
+/* form */
+
+/* .f-container{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin: 92px 150px;
+}
+
+.f-title{
+  font-size: 50px;
+  font-weight: bold;
+  margin: 200px 155px;
+}
+
+.main-form{
+width: 490px;
+height: 490px;
+} */
+
+.f-container{
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+
+.f-title{
+  width: 100%;
+}
+
+.f-container input[type="text"], .f-container input[type="email"], .f-container textarea{
+  height: 64px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 1px 20px;
+  margin-bottom: 24px;
+
+}
+
+.main-form{
+  width: 490px;
+  height: 490px;
+}
+
+.main-form label{
+  padding: 10px;
+}
+
+.primary{
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #4E47FF;
+  color: white;
+  width: 500px;
+  height: 62px;
+  /* padding: 110px 19px; */
+  border-radius: 10px;
+  border: none;
+  gap: 10px;
+}
+.f-title{
+  width: 528px;
+  height: 332px;
+  font-size: 50px;
+}
