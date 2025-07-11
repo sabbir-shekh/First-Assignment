@@ -1,0 +1,173 @@
+/* 
+*{
+    margin: 0;
+} */
+
+.open-sans-simple{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+
+.open-sans-risk{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.top{
+    margin-top: -60px;
+}
+.banner{
+ 
+    background-image: url(./media/Hero-bg.png);
+    background-size: cover;
+    margin-top: -5px;
+    width: 100%;
+    height: 698px;
+    margin-bottom: 20px;
+/* display: flex; */
+    
+ 
+}
+/* navber */
+
+.logo{
+    color: #4E47FF;
+    font-size: 34px;
+}
+
+ul li{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+/* shere */
+
+.btn-primary{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    width: 132px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+   
+   
+}
+
+/* Description */
+.description{
+    display: block;
+   text-align: center;
+   margin: 310px 267px 700px 267px;
+   gap: 37px;
+   
+   
+}
+.description-contain{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+
+/* action */
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin:63px;
+    padding: 62px;
+}
+
+.in-action{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-description{
+    font-size: 24px;
+    color: #252432;
+    font-size: 24px;
+   
+    
+    
+}
+
+.btn-2{
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.action-img img{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+    margin-left: 220px;
+}
+/* productive */
+.stats-container{
+    background-color: #E5E7FF;
+    border-radius: 24px;
+    margin: 129px 283px 137px 141px;
+    padding: 50px;
+}
+
+.stats-container h2 {
+
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.stats-box {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+ 
+  font-weight: bold;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-item .number {
+    justify-content: space-around;
+  font-size: 80px;
+  font-weight: bold;
+  color: #5c6eff;
+  margin-left: 90px;
+}
+
+.stat-item p {
+    color: #72737F;
+  margin-top: 5px;
+  margin-left: 80px;
+  font-size: 20px;
+
+ /*  color:#666; */
+}
