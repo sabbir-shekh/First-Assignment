@@ -301,12 +301,13 @@ height: 364px;
 .f-btn{
   background-color: #4E47FF;
   color: white;
+  margin-left: 480px;
   padding: 12px 36px;
  border-radius: 10px;
  border: none;
  font-size: 18px;
  align-items: center;
-margin-left: 480px;
+
 
 }
 
@@ -414,7 +415,7 @@ display: block;
 }
 
 .footer-container h1{
-  font-size: 100px;
+  font-size: 50px;
   margin-left: 90px;
 }
 
