@@ -1,7 +1,4 @@
-/* 
-*{
-    margin: 0;
-} */
+
 body{
   background-color: #F5F8FF;
 }
@@ -64,6 +61,8 @@ nav{
 
 /* shere */
 
+
+
 .btn-primary{
     background-color: #4E47FF;
     color: #FFFFFF;
@@ -76,6 +75,15 @@ nav{
     font-weight: bold;
    
    
+}
+
+.btn-h:hover{
+  background-color: black;
+  transition: calc(.50s);
+}
+
+.btn-h2:hover{
+  color: white;
 }
 
 /* Description */
@@ -181,85 +189,6 @@ nav{
 
 
 
-
-/* 
-
-
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f6f8ff;
-  margin: 0;
-  padding: 0;
-}
-
-.testimonials {
-  text-align: center;
-  padding: 50px 20px;
-}
-
-.testimonials h2 {
-  color: #2b2c3f;
-  font-size: 28px;
-  margin-bottom: 40px;
-}
-
-.review-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.review-card {
-  background: white;
-  border-radius: 10px;
-  padding: 20px;
-  width: 300px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-  text-align: left;
-}
-
-.stars {
-  color: #f9b233;
-  margin-bottom: 10px;
-}
-
-.review-card h3 {
-  font-size: 18px;
-  color: #2b2c3f;
-  margin-bottom: 10px;
-}
-
-.review-card p {
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 20px;
-}
-
-.review-footer {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.review-footer img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-
-.reviewer-name {
-  font-weight: bold;
-  font-size: 14px;
-  color: #2b2c3f;
-}
-
-.review-date {
-  font-size: 12px;
-  color: #999;
-}
-
-card */
 
 .all-continer{
   
@@ -382,25 +311,7 @@ margin-left: 500px;
 }
 
 
-/* form */
 
-/* .f-container{
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
-  margin: 92px 150px;
-}
-
-.f-title{
-  font-size: 50px;
-  font-weight: bold;
-  margin: 200px 155px;
-}
-
-.main-form{
-width: 490px;
-height: 490px;
-} */
 
 .f-container{
   padding: 130px 230px;
@@ -440,6 +351,7 @@ height: 490px;
   color: white;
   width: 500px;
   height: 62px;
+  
   /* padding: 110px 19px; */
   border-radius: 10px;
   border: none;
@@ -449,4 +361,69 @@ height: 490px;
   width: 528px;
   height: 332px;
   font-size: 50px;
+}
+
+
+
+/* footer */
+
+
+footer{
+  background-color: white;
+  height: 1440px;
+  height: 430px;
+  text-align: center;
+ 
+}
+
+.footer-container{
+  /* border: 10px solid red; */
+  width: 800px;
+margin-left: 200px;
+
+display: block;
+  justify-content: center;
+  padding:90px;
+  /* width: 600px; */
+  
+ 
+}
+
+.navber ul{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  
+  
+}
+
+/* .navber{
+  display: flex;
+} */
+
+.navber{
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  align-items: center;
+  
+  
+
+  
+}
+
+.footer-container h1{
+  font-size: 50px;
+  margin-left: 90px;
+}
+
+.footer-container p{
+  font-size: 20px;
+  
+margin-left: 100px;
+}
+
+.navber ul li{
+  margin-left: 50px;
 }
