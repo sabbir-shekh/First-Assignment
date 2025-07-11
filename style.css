@@ -415,6 +415,7 @@ display: block;
 }
 
 .footer-container h1{
+  color: #4E47FF;
   font-size: 50px;
   margin-left: 90px;
 }
@@ -427,4 +428,5 @@ margin-left: 100px;
 
 .navber ul li{
   margin-left: 50px;
+ 
 }
